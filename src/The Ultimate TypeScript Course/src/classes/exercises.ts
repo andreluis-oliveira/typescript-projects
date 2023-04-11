@@ -10,6 +10,7 @@ const logger = new Logger('my.log')
 
 logger.log('my message')
 
+/*
 class Person {
   constructor (public firstName: string, public lastName: string) {}
 
@@ -35,3 +36,5 @@ interface Employee {
   salary: number
   address: Address
 }
+
+*/

@@ -1,5 +1,3 @@
-import { userInfo } from 'os'
-
 function echo<T> (arg: T): T { return arg }
 
 function printName<T extends {name: string}> (obj: T): void {

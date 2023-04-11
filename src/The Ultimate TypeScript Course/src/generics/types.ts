@@ -12,10 +12,9 @@ type Optional<T> {
 }
 */
 
-type Nullable<T> {
+type Nullable<T> = {
   [K in keyof T]?: T[K] | null
 }
-
 
 const product: ReadOnly<Product> = {
   name: 'a',
